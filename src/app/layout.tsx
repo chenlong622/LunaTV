@@ -6,6 +6,7 @@ import nextDynamic from 'next/dynamic';
 import { cookies } from 'next/headers';
 import { Suspense } from 'react';
 import { Toaster } from 'sonner';
+import { Analytics } from '@vercel/analytics/next';
 
 import './globals.css';
 
@@ -230,6 +231,7 @@ export default async function RootLayout({
           </QueryProvider>
           <Toaster position="top-center" richColors closeButton />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

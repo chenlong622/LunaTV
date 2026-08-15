@@ -34,6 +34,7 @@
     "@tanstack/react-virtual": "^3.14.8",
     "@types/crypto-js": "^4.2.2",
     "@upstash/redis": "^1.25.0",
+    "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.0.1",
     "@vidstack/react": "^1.12.13",
     "@websr/websr": "^0.0.16",
